@@ -1,4 +1,4 @@
-import React, { useState} from 'react';
+import React, { useState, useEffect } from 'react';
 import Layout from '../../components/Layout';
 import { Container, Form, Row, Col, Button } from 'react-bootstrap';
 import Input from '../../components/UI/Input';
@@ -72,4 +72,4 @@ const Signin = (props) => {
 
 }
 
-export default Signin ;
+export default Signin
